@@ -1,0 +1,45 @@
+Tasks:
+
+/*
+ * Task A: Create a printout that looks 
+ * like the following
+ * ******************************
+ * Ticket to The Greatest Showman
+ * Issued to Nikhil Srinivasan
+ * Date: 2018_01
+ * Show number 1 : Hall number 5
+ * ******************************
+*/
+
+
+/*
+ * Task B: Declare variables and 
+ *Create a printout that looks like the following
+ * Declare variables name, date, showNumber and hallNumber
+ * Set their values to "Akhil Sridhar", "2018_02", 4, 5
+ * 
+ * Use the variables to print out a ticket as follows
+ * 
+ * ******************************
+ * Ticket to The Greatest Showman
+ * Issued to Akhil Sridhar
+ * Date: 2018_02
+ * Show number 4 : Hall number 5
+ * ******************************
+*/
+
+
+/*
+ * Task C: Declare variables and Create a printout that looks like the following
+ * Declare variables showName, name, date, showNumber and hallNumber
+ * get inputs for these variables from the user
+ * 
+ * Use the variables to print out a ticket as follows
+ * 
+ * ******************************
+ * Ticket to showName
+ * Issued to name
+ * Date: date
+ * Show number showNumber : Hall number hallNumber
+ * ******************************
+*/				
