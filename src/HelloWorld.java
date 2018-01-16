@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//import java.util.Scanner;
+
 /**
  * 
  * What we do when building applications a. Modeling the real world, what is the
@@ -98,7 +100,7 @@ public class HelloWorld {
 		// nextInt() // returns the data as an integer
 		// nextDouble() // returns the data as a double
 
-		System.out.print("Name > ");
+		System.out.print("Type out your Name > ");
 		name = scan.next();
 		System.out.print("Salary > ");
 		salary = scan.nextDouble();
@@ -111,10 +113,8 @@ public class HelloWorld {
 
 		// add's a new line character when used as part of a print or println statement
 		// or string literal
-		
-		
-		
-	//	Task D.
+
+		// Task D.
 		System.out.print("Current Assets > ");
 		double currentAssets = scan.nextInt();
 		System.out.print("Current Liabilities > ");
@@ -125,27 +125,21 @@ public class HelloWorld {
 		double totalAssets = scan.nextInt();
 		System.out.print("Total Liabilities > ");
 		double totalLiabilities = scan.nextInt();
-		
+
 		System.out.print("Shareholders Equity > ");
 		int shareholdersEquity = scan.nextInt();
-		
+
 		double netAssets = totalAssets - totalLiabilities;
-		
-		double currentRatio = currentAssets/currentLiabilities;
-		
-		double rOA =  (netIncome/netAssets);
-		
-		double rOE = netIncome/shareholdersEquity;
-		
+
+		double currentRatio = currentAssets / currentLiabilities;
+
+		double rOA = (netIncome / netAssets);
+
+		double rOE = netIncome / shareholdersEquity;
+
 		System.out.println(currentRatio);
 		System.out.println(rOA);
 		System.out.println(rOE);
-		
-		
-		
-		
-
-		
 
 	}
 
