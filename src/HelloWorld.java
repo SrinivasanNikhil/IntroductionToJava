@@ -87,7 +87,8 @@ public class HelloWorld {
 		// import statements come on the top of the java code
 		// To use the Scanner you have to create an object of the scanner type
 
-		Scanner scan = new Scanner(System.in);
+		Scanner scan;
+		scan = new Scanner(System.in);
 
 		// Like every object in the real world that can do things, objects in java can
 		// do things
@@ -102,7 +103,7 @@ public class HelloWorld {
 
 		System.out.print("Type out your Name > ");
 		name = scan.next();
-		System.out.print("Salary > ");
+		System.out.print("Type out your Salary > ");
 		salary = scan.nextDouble();
 		System.out.print("Age > ");
 		age = scan.nextInt();
