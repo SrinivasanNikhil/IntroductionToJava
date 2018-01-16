@@ -30,7 +30,8 @@ Tasks:
 
 
 /*
- * Task C: Declare variables and Create a printout that looks like the following
+ * Task C: Declare variables and Create a printout that 
+ *looks like the following
  * Declare variables showName, name, date, showNumber and hallNumber
  * get inputs for these variables from the user
  * 
@@ -42,4 +43,30 @@ Tasks:
  * Date: date
  * Show number showNumber : Hall number hallNumber
  * ******************************
-*/				
+*/			
+
+
+
+Task D.
+In this task you will be calculating important financial ratios for an organization.
+Write an program to take inputs from the user for the following
+a. current assets
+b. current liabilities
+c. net income
+d. total assets
+e. total liabilities
+f. shareholders equity
+
+and store the inputs in appropriate variables. 
+
+After taking these inputs calculate, store and display the following financial ratios in a pleasant to see
+1. current ratio = current assets/current liabilities
+2. return on assets = net income/net assets
+4. return on equity = net income/shareholders equity
+
+Use http://www.nasdaq.com/symbol/aapl/financials?query=income-statement or something similar for data to test
+and validate your code.
+
+
+
+	

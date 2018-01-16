@@ -111,6 +111,41 @@ public class HelloWorld {
 
 		// add's a new line character when used as part of a print or println statement
 		// or string literal
+		
+		
+		
+	//	Task D.
+		System.out.print("Current Assets > ");
+		double currentAssets = scan.nextInt();
+		System.out.print("Current Liabilities > ");
+		double currentLiabilities = scan.nextInt();
+		System.out.print("Net Income > ");
+		double netIncome = scan.nextInt();
+		System.out.print("Total Assets > ");
+		double totalAssets = scan.nextInt();
+		System.out.print("Total Liabilities > ");
+		double totalLiabilities = scan.nextInt();
+		
+		System.out.print("Shareholders Equity > ");
+		int shareholdersEquity = scan.nextInt();
+		
+		double netAssets = totalAssets - totalLiabilities;
+		
+		double currentRatio = currentAssets/currentLiabilities;
+		
+		double rOA =  (netIncome/netAssets);
+		
+		double rOE = netIncome/shareholdersEquity;
+		
+		System.out.println(currentRatio);
+		System.out.println(rOA);
+		System.out.println(rOE);
+		
+		
+		
+		
+
+		
 
 	}
 
