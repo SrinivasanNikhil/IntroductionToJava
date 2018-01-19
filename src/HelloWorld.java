@@ -117,18 +117,18 @@ public class HelloWorld {
 
 		// Task D.
 		System.out.print("Current Assets > ");
-		double currentAssets = scan.nextInt();
+		double currentAssets = scan.nextDouble();
 		System.out.print("Current Liabilities > ");
-		double currentLiabilities = scan.nextInt();
+		double currentLiabilities = scan.nextDouble();
 		System.out.print("Net Income > ");
-		double netIncome = scan.nextInt();
+		double netIncome = scan.nextDouble();
 		System.out.print("Total Assets > ");
-		double totalAssets = scan.nextInt();
+		double totalAssets = scan.nextDouble();
 		System.out.print("Total Liabilities > ");
-		double totalLiabilities = scan.nextInt();
+		double totalLiabilities = scan.nextDouble();
 
 		System.out.print("Shareholders Equity > ");
-		int shareholdersEquity = scan.nextInt();
+		double shareholdersEquity = scan.nextDouble();
 
 		double netAssets = totalAssets - totalLiabilities;
 
