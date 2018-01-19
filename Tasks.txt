@@ -38,10 +38,10 @@ Tasks:
  * Use the variables to print out a ticket as follows
  * 
  * ******************************
- * Ticket to showName
- * Issued to name
- * Date: date
- * Show number showNumber : Hall number hallNumber
+ * Ticket to userInput
+ * Issued to userInput
+ * Date: userInput
+ * Show number userInput : Hall number userInput
  * ******************************
 */			
 
